@@ -60,7 +60,7 @@ p {
 nav { 
   margin:0;
   padding: 0;
-  background-color: #254441;
+  background-color: #FF0101;
 }
 
 #logo {
@@ -95,7 +95,7 @@ nav ul li {
   margin: 0px;
   display:inline-block;
   float: left;
-  background-color: #254441;
+  background-color: #FF0101;
   }
 
 /* Styling the links */
