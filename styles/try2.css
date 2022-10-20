@@ -157,7 +157,7 @@ li > a:only-child:after { content: ''; }
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width : 768px) {
+@media screen and (max-width : 768px) {
 
   #logo {
     display: block;
@@ -260,7 +260,7 @@ li > a:only-child:after { content: ''; }
 
 }
 
-@media all and (max-width : 330px) {
+@media screen and (max-width : 330px) {
 
   nav ul li {
     display:block;
