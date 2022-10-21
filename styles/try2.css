@@ -69,8 +69,7 @@ nav {
   float: left;
   font-size:20px;
   line-height: 60px;
-width: "60";
-height:"30";
+
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -183,7 +182,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #FF0101;;
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px;
