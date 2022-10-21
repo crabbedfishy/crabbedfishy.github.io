@@ -326,6 +326,7 @@ img {
     font-size: 16px;
     margin-top: 22px;
     top: inherit;
+    color: white;
   }
 
   .forget-pass {
