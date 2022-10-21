@@ -60,7 +60,7 @@ p {
 nav { 
   margin:0;
   padding: 0;
-  background-color: #EB0D0D;
+  background-color: #FF0101;
 }
 
 #logo {
@@ -96,7 +96,7 @@ nav ul li {
   margin: 0px;
   display:inline-block;
   float: left;
-  background-color: #EB0D0D;
+  background-color: #FF0101;
   }
 
 /* Styling the links */
@@ -182,7 +182,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #EB0D0D;
+		background-color: #FF0101;
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px;
