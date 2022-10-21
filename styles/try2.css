@@ -69,8 +69,8 @@ nav {
   float: left;
   font-size:20px;
   line-height: 60px;
-width=60px;
-height=30px;
+width: 60px;
+height:30px;
 }
 
 /* Since we'll have the "ul li" "float:left"
