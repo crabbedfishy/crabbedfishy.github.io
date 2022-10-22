@@ -330,6 +330,8 @@ ________________________________________________________________________________
   float: left;
   margin: 0 auto;
   width: calc(100% - 1194px);
+	 background-color:white; 
+	
 }
 .login .container {
   width: 505px;
@@ -529,7 +531,6 @@ ________________________________________________________________________________
             animation: slideIn 0.8s ease-in-out forwards;
     width: 85%;
     float: none;
-	  background-color:white; /*no clue of dit werkt*/
   }
   .login .container h1 {
     font-size: 25px;
