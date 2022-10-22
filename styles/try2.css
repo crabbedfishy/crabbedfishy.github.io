@@ -330,14 +330,11 @@ _________________________/*login page*/_________________________________________
   float: left;
   margin: 0 auto;
   width: calc(100% - 1194px);
-	
-	
 }
 .login .container {
   width: 505px;
   margin: 0 auto;
   position: relative;
-	
 }
 .login .container h1 {
   margin-top: 100px;
@@ -354,8 +351,7 @@ _________________________/*login page*/_________________________________________
 .login .container .login-form form input {
   font-size: 16px;
   font-weight: normal;
- background: rgba(57, 57, 57, 0.07); 
-	
+  background: rgba(57, 57, 57, 0.07);
   margin: 12.5px 0;
   height: 68px;
   border: none;
@@ -412,7 +408,7 @@ _________________________/*login page*/_________________________________________
   font-weight: normal;
   position: absolute;
   top: 32px;
-  color: #FFFDFD;
+  color: #3B3B3B;
   margin-left: 15px;
 }
 .login .container .forget-pass {
@@ -500,12 +496,13 @@ _________________________/*login page*/_________________________________________
     margin: 20px auto !important;
     text-align: center;
   }
+  .bg-illustration 
  
+
   .login {
     float: none;
     margin: 0 auto;
     width: 100%;
-
   }
   .login .container {
     -webkit-animation: slideIn 0.8s ease-in-out forwards;
@@ -535,7 +532,6 @@ _________________________/*login page*/_________________________________________
     font-size: 16px;
     margin-top: 22px;
     top: inherit;
-    
   }
 
   .forget-pass {
@@ -549,7 +545,7 @@ _________________________/*login page*/_________________________________________
     font-size: 16px;
     position: relative;
     font-weight: normal;
-    color: #ffffff;
+    color: #918F8F;
   }
   .forget-pass a::after {
     content: "";
@@ -572,4 +568,3 @@ _________________________/*login page*/_________________________________________
     opacity: 1;
   }
 }
-    
