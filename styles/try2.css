@@ -447,17 +447,18 @@ _________________________/*login page*/_________________________________________
   opacity: 1;
 }
 
-/*@media only screen and (min-width: 992px) and (max-width: 1680px) {
+@media only screen and (min-width: 992px) and (max-width: 1680px) {
   .bg-illustration {
     width: 50%;
-    -webkit-animation: none;
-            animation: none;
+   /* -webkit-animation: none;
+            animation: none; */
+	  overflow-x: hidden;
   }
 
   .login {
     width: 50%;
   }
-} */
+} 
 @media only screen and (max-width: 992px) {
   body {
     overflow-x: hidden;
