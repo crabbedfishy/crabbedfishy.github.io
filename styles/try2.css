@@ -462,21 +462,25 @@ _________________________/*login page*/_________________________________________
 	 @-webkit-keyframes slideIn {
     from {
       left: -100%;
+	    width: 0;
       opacity: 0;
     }
     to {
-      left: -50%;
+      left: 0;
+       width: 500px;
       opacity: 1;
     }
   }
 
   @keyframes slideIn {
     from {
-      left: -100%;
+      left: -100;
+	 width: 0;
       opacity: 0;
     }
     to {
-      left: -50%;
+      left: 0;
+	  width: 500px;
       opacity: 1;
     }
   }
