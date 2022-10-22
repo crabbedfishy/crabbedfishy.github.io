@@ -522,6 +522,7 @@ ________________________________________________________________________________
     float: none;
     margin: 0 auto;
     width: 100%;
+  color: #ffffff; /* bruh new so idk man*/
   }
   .login .container {
     -webkit-animation: slideIn 0.8s ease-in-out forwards;
@@ -538,7 +539,6 @@ ________________________________________________________________________________
   }
   .login .container .login-form form input {
     height: 45px;
-	color:  #ffffff; /* kleur zelf veranderdt idk of t goed is*/
   }
   .login .container .login-form form button[type=submit] {
     height: 45px;
