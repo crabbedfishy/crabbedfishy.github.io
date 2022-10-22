@@ -45,7 +45,7 @@ img {
   outline: none;
 }
 
-    .clearfix::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -217,7 +217,7 @@ img {
   opacity: 1;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1680px) {
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
   .bg-illustration {
     width: 50%;
     -webkit-animation: none;
@@ -228,7 +228,8 @@ img {
     width: 50%;
   }
 }
-@media only screen and (max-width: 992px) {
+/* Display 12", iPad PRO Portrait, iPad landscape */
+@media only screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
@@ -270,8 +271,27 @@ img {
     margin: 20px auto !important;
     text-align: center;
   }
-  .bg-illustration 
- 
+  .bg-illustration .burger-btn {
+    left: 33px;
+    top: 29px;
+    display: block;
+    position: absolute;
+  }
+  .bg-illustration .burger-btn span {
+    display: block;
+    height: 4px;
+    margin: 6px;
+    background-color: #fff;
+  }
+  .bg-illustration .burger-btn span:nth-child(1) {
+    width: 37px;
+  }
+  .bg-illustration .burger-btn span:nth-child(2) {
+    width: 28px;
+  }
+  .bg-illustration .burger-btn span:nth-child(3) {
+    width: 20px;
+  }
 
   .login {
     float: none;
@@ -342,5 +362,3 @@ img {
     opacity: 1;
   }
 }
-
-    
