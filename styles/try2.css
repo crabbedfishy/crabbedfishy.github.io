@@ -409,7 +409,7 @@ _________________________/*login page*/_________________________________________
   font-weight: normal;
   position: absolute;
   top: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 15px;
 }
 .login .container .forget-pass {
@@ -421,7 +421,7 @@ _________________________/*login page*/_________________________________________
   font-size: 16px;
   position: relative;
   font-weight: normal;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .login .container .forget-pass a::after {
   content: "";
