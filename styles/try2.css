@@ -538,6 +538,7 @@ ________________________________________________________________________________
   }
   .login .container .login-form form input {
     height: 45px;
+	color:  #ffffff; /* kleur zelf veranderdt idk of t goed is*/
   }
   .login .container .login-form form button[type=submit] {
     height: 45px;
