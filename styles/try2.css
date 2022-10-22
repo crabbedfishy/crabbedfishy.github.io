@@ -450,31 +450,8 @@ _________________________/*login page*/_________________________________________
 @media only screen and (min-width: 992px) and (max-width: 1680px) {
   .bg-illustration {
     width: 50%;
-   /* -webkit-animation: none;
-            animation: none; */
-	  __________
-	   @-webkit-keyframes slideIn {
-    from {
-      left: -100%;
-      opacity: 0;
-    }
-    to {
-      left: 0;
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideIn {
-    from {
-      left: -100%;
-      opacity: 0;
-    }
-    to {
-      left: 0;
-      opacity: 1;
-    }
-  }
-	  __________
+    -webkit-animation: none;
+            animation: none; 
   }
 
   .login {
