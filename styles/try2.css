@@ -529,7 +529,7 @@ ________________________________________________________________________________
             animation: slideIn 0.8s ease-in-out forwards;
     width: 85%;
     float: none;
-	  backgroundcolor: #ffffff; /* new so idk*/
+	  background-color:white; /*no clue of dit werkt*/
   }
   .login .container h1 {
     font-size: 25px;
