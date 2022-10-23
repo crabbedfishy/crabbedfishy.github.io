@@ -1,8 +1,14 @@
 
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
-
+* {
+  -webkit-box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 body {
   background: #212121;
   font-size:22px;
@@ -270,7 +276,7 @@ li > a:only-child:after { content: ''; }
 	}
 
 } }
-_________________________/*login page*/_________________________________________________________________________________________________
+/*_____________________________login page____________________________________________________________________*/
 
 
 .clearfix::after {
