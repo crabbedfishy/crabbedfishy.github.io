@@ -1,8 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-
-___________
+___________________
 * {
   margin: 0;
   padding: 0;
@@ -21,16 +20,13 @@ details,
 figure,
 footer,
 header,
-main,
 menu,
-nav,
 section,
 summary {
   display: block;
 }
 
 h2,
-
 h4,
 h5,
 h6,
@@ -47,7 +43,7 @@ img {
 *:focus {
   outline: none;
 }
-__________
+______________
 
 body {
   background: #212121;
