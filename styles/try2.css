@@ -96,6 +96,7 @@ nav ul {
   margin:0;
   list-style: none;
   position: relative;
+  z-index: 9999;
   }
   
 /* Positioning the navigation items inline */
@@ -143,6 +144,7 @@ nav ul ul li {
   float:none;
   display:list-item;
   position: relative;
+  z-index: 9999;
 }
 
 /* Second, Third and more Tiers 
@@ -154,11 +156,13 @@ nav ul ul ul li {
   top:-60px;
   /* has to be the same number as the "width" of "nav ul ul li" */ 
   left:170px; 
+  z-index: 9999;
 }nav ul ul ul ul ul li {
   position: relative;
   top:-60px;
   /* has to be the same number as the "width" of "nav ul ul li" */ 
   left:170px; 
+  z-index: 9999;
 }
 
 
