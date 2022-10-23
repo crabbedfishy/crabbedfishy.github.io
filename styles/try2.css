@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 * {
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;  /*doet volgens mij niks maar idk*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -594,4 +594,25 @@ li > a:only-child:after { content: ''; }
   .forget-pass a:hover::after {
     opacity: 1;
   }
+}
+
+/*_______________________________________fotos die wisselen als je de muis erop doet______________________________________________*/
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
