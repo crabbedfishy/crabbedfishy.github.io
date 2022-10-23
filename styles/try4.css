@@ -108,7 +108,7 @@ body.bodyabout {
 		object-fit: cover;
 		object-position: center;
 	}
-	section > div {
+	section > div.abouth2 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -133,13 +133,4 @@ body.bodyabout {
 		font-size: calc(1.5vmin + 1.75vmax);
 		margin-bottom: 5%;
 	}
-	a {
-		color: transparent;
-		-webkit-text-stroke: 2px #212121;
-		text-decoration: none;
-    font-weight: 900;
-    letter-spacing: 2px;
-	}
-	a:hover, a:focus {	
-		-webkit-text-stroke: 1px #999;
-	}
+	
