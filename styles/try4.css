@@ -3,7 +3,7 @@ body {
 	background: #000;
 	box-sizing:border-box;
 	font-size: 0.75rem;
-	color: #000;
+	/*color: #000;*/
 }
 
 @media screen and (min-width: 600px) {
