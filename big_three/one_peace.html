@@ -6,49 +6,68 @@
   
 </head>
 <nav>
-     <div id="logo">Your Logo here</div>
-     <label for="drop" class="toggle">Menu</label>
-     <input type="checkbox" id="drop" />
-     
-        <ul class="menu">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="three.html">The Big Three</a> <!-- mischien een korte uitleg wat het betekent en hoe we het beoordelen -->
-            <!-- First Tier Drop Down -->
-            <ul>
-                <li><a href="naruto.html">Naruto</a></li>
-                <li><a href="bleach.html">Bleach</a></li>
-                <li><a href="one_peace.html">One Piece</a></li>
-            </ul>        
-            </li>
-            <li><a href="#">Web Design</a>
-            <!-- First Tier Drop Down -->
-            <ul>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Tutorials</a>
-            	<!-- Second Tier Drop Down -->
-                <ul>
-                    <li><a href="#">HTML/CSS</a></li>
-                    <li><a href="#">jQuery</a></li>
-                    <li><a href="#">Other</a>
-                        <!-- Third Tier Drop Down -->
-                        <ul>
-                            <li><a href="#">Stuff</a></li>
-                            <li><a href="#">Things</a></li>
-                            <li><a href="#">Other Stuff</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                </li>
-            </ul>
-            </li>
-            <li><a href="/truffel.html">Andere pagina layout?</a></li>
-            <li><a href="#">Inspiration</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/loging.html">Login</a></li>
-        </ul>
-    </nav>
+    <div id="logo"> <img src="/foto/logo.png"  height="50"></div>
+    <label for="drop" class="toggle">Menu</label>
+    <input type="checkbox" id="drop" />
+    
+       <ul class="menu">
+           <li><a href="/index.html">Home</a></li>
+           <li>
+             <label for="drop-1" class="toggle">The Big Three+</label>
+            <a href='three.html' >The Big Three</a>
+           
+            <!-- mischien een korte uitleg wat het betekent en hoe we het beoordelen -->
+            
+           <!-- First Tier Drop Down -->
+            <input type="checkbox" id="drop-1"/>
+           <ul>
+               <li><a href="naruto.html">Naruto</a></li>
+               <li><a href="bleach.html">Bleach</a></li>
+               <li><a href="one_peace.html">One Piece</a></li>
+           </ul>        
+           </li>
+        
+          <li>
+               <!-- First Tier Drop Down -->
+               <label for="drop-2" class="toggle">Anime +</label>
+               <a href="/anime/anime.html">Anime</a>
+               <input type="checkbox" id="drop-2"/>
+               <ul>
+                   <li><a href="/anime/rating_system.html">Rating System</a></li>
+                   <li>
+                      
+                   <!-- Second Tier Drop Down -->        
+                   <label for="drop-3" class="toggle">Recommendations +</label>
+                   <a href="/anime/recommendations.html">Approved</a>         
+                   <input type="checkbox" id="drop-3"/>
+
+                   <ul>
+                       <li><a href="/anime/evangelion.html">Evangelion</a></li>
+                       <li><a href="/anime/vinland.html">Vinland Saga</a></li>
+                       <li>
+                          <!-- Third Tier Drop Down --> 
+                          <label for="drop-4" class="toggle">Fate/Zero +</label>
+                          <a href="/anime/fatezero.html">Fate/Zero</a>         
+                          <input type="checkbox" id="drop-4"/>
+                     
+
+                       <ul>
+                           <li><a href="/anime/fatestay.html">Fate/Stay night</a></li>
+                           <li><a href="/anime/fategrand.html">Fate/Grand Order</a></li>
+                        
+                       </ul>
+                       </li>
+                   </ul>
+                        
+                   </li>
+               </ul>
+               </li>
+           <li><a href="#">Inspiration</a></li>
+           <li><a href="/contact.html">Contact</a></li>
+           <li><a href="/about.html">About</a></li>
+           <li><a href="/loging.html">Login</a></li>
+       </ul>
+   </nav>
   <h1>Otuka Reviews One Piece</h1>
 <p> fotos review storyline etc.</p>
 
