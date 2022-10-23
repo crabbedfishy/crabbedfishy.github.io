@@ -627,3 +627,7 @@ li > a:only-child:after { content: ''; }
 #cf img.top:hover {
   opacity:0;
 }
+/*__________________________about page______________________*/
+.jens {
+  color:black;
+}
