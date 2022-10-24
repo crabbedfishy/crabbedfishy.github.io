@@ -43,7 +43,7 @@ header.index {
           transform: translateY(-50%);
 }
 
-.title_wrapper h1 {
+.title_wrapper h1.index {
   text-align: center;
   font-size: 64px;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ header.index {
   font-weight: 900;
 }
 
-.container_solid .title_wrapper h1 {
+.container_solid .title_wrapper h1.index {
   /* the text background */
   background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
   background-size: 100vw auto;
@@ -65,7 +65,7 @@ header.index {
   -webkit-background-clip: text;
   
   /* fallback text color */
-  color: black;
+  color: white;
 }
 
 .container_image {
@@ -80,7 +80,7 @@ header.index {
 }
 
 .container_image .title_wrapper h1 {
-  color: white;
+  color: #212121;;
 }
 
 section {
@@ -90,10 +90,10 @@ section {
   max-width: 800px;
 }
 
-section h2 {
+section h2.index {
   font-family: 'Fraunces', serif;
 }
 
-section p {
+section p.index {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
