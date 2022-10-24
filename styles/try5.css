@@ -83,16 +83,16 @@ header.index {
   color: black;;
 }
 
-section {
+section.index {
   min-height: 100vh;
   padding: 2em;
   margin: auto;
   max-width: 800px;
 }
-section h2.index {
+section.index h2.index {
     font-family: 'Open Sans', sans-serif;
 }
 
-section p.index {
+section.index p.index {
     font-family: 'Open Sans', sans-serif;
 } 
