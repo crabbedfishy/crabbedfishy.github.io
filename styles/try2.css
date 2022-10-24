@@ -629,7 +629,7 @@ li > a:only-child:after { content: ''; }
 #cf img.top:hover {
   opacity:0;
 }
-/*__________________________about page______________________*/
+/*______________________________________________about page________________________________________________*/
 body.bodyabout {
 	background: #000;
 	box-sizing:border-box;
@@ -669,7 +669,7 @@ body.bodyabout {
 		right: 45%;
 		left: 5vmin;
 	}
-  section {
+ section {
 		background: #e5e5e5;
 		width: calc(50% + 1px);
 		height: 100vh;
@@ -764,5 +764,5 @@ body.bodyabout {
 		font-size: calc(1.5vmin + 1.75vmax);
 		margin-bottom: 5%;
 	}
-	/*____________________________homepage____________________________________*/
+	/*_________________________________________________homepage____________________________________________*/
   
