@@ -48,7 +48,7 @@ header.index {
   font-size: 64px;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Fraunces', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
 }
 
@@ -88,12 +88,11 @@ section {
   padding: 2em;
   margin: auto;
   max-width: 800px;
-}
-
+}/*
 section h2.index {
-  font-family: 'Fraunces', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section p.index {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-}
+    font-family: 'Open Sans', sans-serif;
+} */
