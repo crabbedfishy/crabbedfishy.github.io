@@ -54,7 +54,7 @@ header.index {
 
 .container_solid .title_wrapper h1.index {
   /* the text background */
-  background: url(/foto/evangelion_index.jfif);
+  background: url(/foto/evangelion_index2.jpg);
   background-size: 100vw auto;
   background-position: center;
   
@@ -70,7 +70,7 @@ header.index {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url(/foto/evangelion_index.jfif);
+  background-image: url(/foto/evangelion_index2/jpg);
   background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
