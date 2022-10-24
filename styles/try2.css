@@ -669,7 +669,7 @@ body.bodyabout {
 		right: 45%;
 		left: 5vmin;
 	}
-  section.about {
+  section {
 		background: #e5e5e5;
 		width: calc(50% + 1px);
 		height: 100vh;
@@ -681,7 +681,7 @@ body.bodyabout {
 		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
 			}
        figure:nth-of-type(1),
-      section.about:nth-of-type(1) {
+      section:nth-of-type(1) {
 		margin: 0 0 10vh 0;
 		width: 50%;
 			}
@@ -689,15 +689,15 @@ body.bodyabout {
 		margin: 0 0 10vh auto;
 		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
 			}
-      section.about:nth-of-type(2n) {
+      section:nth-of-type(2n) {
 		margin: 0 auto 10vh 0;
 		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
 		}
     figure:last-of-type,
-     section.about:last-of-type {
+     section:last-of-type {
 		margin-bottom: 0;
 	}
-	 section.about::before {
+	 section::before {
 		background: inherit;
 		z-index: 1;
 		content: '';
@@ -711,12 +711,12 @@ body.bodyabout {
 		box-shadow: -4px -2px 8px rgba(0,0,0,.4);
 		border-radius: 1.5vmin 0 0 0;
 	}
-	  section.about:nth-of-type(2n)::before {
+	  section:nth-of-type(2n)::before {
 		left:auto;
 		right: 0;
 		transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
 	}
-	section.about::after {
+	section::after {
 		content: '';
 		position: absolute;
 		top: 5vmin;
@@ -729,7 +729,7 @@ body.bodyabout {
 		backdrop-filter: invert(1);
 		pointer-events: none;
 	}
-	 section.about:nth-of-type(2n):after {
+	 section:nth-of-type(2n):after {
 		right: 5vmin;
 		left: 45%;
 	}
@@ -739,7 +739,7 @@ body.bodyabout {
 		object-fit: cover;
 		object-position: center;
 	}
-	 section.about > div.abouth2 {
+	 section > div.abouth2 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
