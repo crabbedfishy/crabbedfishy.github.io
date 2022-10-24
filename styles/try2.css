@@ -669,7 +669,7 @@ body.bodyabout {
 		right: 45%;
 		left: 5vmin;
 	}
- section {
+ section.about {
 		background: #e5e5e5;
 		width: calc(50% + 1px);
 		height: 100vh;
@@ -689,15 +689,15 @@ body.bodyabout {
 		margin: 0 0 10vh auto;
 		box-shadow: -4px -4px 8px rgba(0,0,0,.4);
 			}
-      section:nth-of-type(2n) {
+      section.about:nth-of-type(2n) {
 		margin: 0 auto 10vh 0;
 		box-shadow: 4px -4px 8px rgba(0,0,0,.4);
 		}
     figure:last-of-type,
-     section:last-of-type {
+     section.about:last-of-type {
 		margin-bottom: 0;
 	}
-	 section::before {
+	 section.about::before {
 		background: inherit;
 		z-index: 1;
 		content: '';
@@ -711,12 +711,12 @@ body.bodyabout {
 		box-shadow: -4px -2px 8px rgba(0,0,0,.4);
 		border-radius: 1.5vmin 0 0 0;
 	}
-	  section:nth-of-type(2n)::before {
+	  section.about:nth-of-type(2n)::before {
 		left:auto;
 		right: 0;
 		transform: translate(calc(50% - 1px), -50%) rotate(-45deg) scale(-1);
 	}
-	section::after {
+	section.about::after {
 		content: '';
 		position: absolute;
 		top: 5vmin;
@@ -729,7 +729,7 @@ body.bodyabout {
 		backdrop-filter: invert(1);
 		pointer-events: none;
 	}
-	 section:nth-of-type(2n):after {
+	 section.about:nth-of-type(2n):after {
 		right: 5vmin;
 		left: 45%;
 	}
@@ -739,7 +739,7 @@ body.bodyabout {
 		object-fit: cover;
 		object-position: center;
 	}
-	 section > div.abouth2 {
+	 section.about > div.abouth2 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
