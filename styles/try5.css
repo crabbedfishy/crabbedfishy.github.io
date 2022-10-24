@@ -83,16 +83,16 @@ header.index {
   color: #212121;
 }
 
-section.index {
+div.index {
   min-height: 100vh;
   padding: 2em;
   margin: auto;
   max-width: 800px;
 }
-section.index h2 {
+div.index h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-section.index p {
+div.index p {
     font-family: 'Open Sans', sans-serif;
 } 
