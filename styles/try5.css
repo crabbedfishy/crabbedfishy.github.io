@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
-header {
+header.index {
   height: 200vh;
 }
 
@@ -12,7 +12,7 @@ header {
   overflow: hidden;
 
   /* only works with absolute positioning */
-  position: absolute;
+  position: fixed;
 
   /* Make sure containers are full-width and height */
   height: 100vh;
@@ -71,7 +71,6 @@ header {
   }
 
 .container_image {
-  /* Grab a free image from unsplash */
   background-image: url(/foto/evangelion_index2.jpg);
   background-size:100vw auto;
   background-position: center;
@@ -116,7 +115,6 @@ div.index p {
       color: white;
     } 
       .container_image {
-      /* Grab a free image from unsplash */
       background-image: url(/foto/evangelion_index3.png);
       background-size:100vw auto;
       background-position: center;
