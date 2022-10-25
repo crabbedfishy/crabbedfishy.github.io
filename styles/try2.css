@@ -15,6 +15,7 @@ body {
   font-size:22px;
   line-height: 32px;
   color: #ffffff;
+  margin:0;
   padding: 0;
   word-wrap:break-word !important;
   font-family: 'Open Sans', sans-serif;
@@ -49,10 +50,10 @@ h1 {
   font-family: 'Bree Serif', 'serif';
   }
 
-#container {
+/*?8#container {
   margin: 0 auto;
   max-width: 890px;
-}
+}*/
 
 p {
   text-align: center;
