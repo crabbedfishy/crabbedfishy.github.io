@@ -779,8 +779,8 @@ body.bodyabout {
 ul.slides {
     display: block;
     position: relative;
-    height: 600px;
-     width: ;
+    height: 200px;
+     width: 500px;
     margin: 0;
     padding: 0;
     overflow: hidden;
