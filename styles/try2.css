@@ -208,12 +208,12 @@ li > a:only-child:after { content: ''; }
 		font-size:17px;
 		text-decoration:none;
 		border:none;
-    position: fixed;
+    
    
 	}
 
 	.toggle:hover {
-		background-color: #000000;
+		background-color: #212121;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -238,7 +238,7 @@ li > a:only-child:after { content: ''; }
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: #000000;
+		background-color: #212121;
 	}
   
 	nav ul li ul li .toggle,
@@ -290,7 +290,7 @@ li > a:only-child:after { content: ''; }
 		width: 94%;
 	}
 
-} }
+} 
 /*_____________________________login page____________________________________________________________________*/
 
 
