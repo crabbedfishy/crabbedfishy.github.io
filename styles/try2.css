@@ -612,8 +612,8 @@ li > a:only-child:after { content: ''; }
 /*_______________________________________fotos die wisselen als je de muis erop doet______________________________________________*/
 #cf {
   position:relative;
-  height:281px;
-  width:450px;
+  height:280px;
+  width:400px;
   margin:0 auto;
 }
 
