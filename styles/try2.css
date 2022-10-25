@@ -972,7 +972,7 @@ header.index {
   z-index: 2;
   
   /* position this container at the top of its parent element */
-  top: 0;
+  /*top: 0;*/
 }
 
 .title_wrapper {
