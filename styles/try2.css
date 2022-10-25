@@ -353,24 +353,24 @@ li > a:only-child:after { content: ''; }
   margin: 0 auto;
   width: calc(100% - 1194px);
 }
-.login .container {
+.login .container1 {
   width: 505px;
   margin: 0 auto;
   position: relative;
 }
-.login .container h1 {
+.login .container1 h1 {
   margin-top: 100px;
   font-size: 35px;
   font-weight: bolder;
 }
-.login .container .login-form {
+.login .container1 .login-form {
   margin-top: 112px;
 }
 .login .container .login-form form {
   display: -ms-grid;
   display: grid;
 }
-.login .container .login-form form input {
+.login .container1 .login-form form input {
   font-size: 16px;
   font-weight: normal;
   background: rgba(57, 57, 57, 0.07);
@@ -380,7 +380,7 @@ li > a:only-child:after { content: ''; }
   padding: 0 30px;
   border-radius: 10px;
 }
-.login .container .login-form form button[type=submit] {
+.login .container1 .login-form form button[type=submit] {
   background: -webkit-linear-gradient(110deg, #f794a4 0%, #fdd6bd 100%);
   background: -o-linear-gradient(110deg, #f794a4 0%, #fdd6bd 100%);
   background: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
@@ -397,10 +397,10 @@ li > a:only-child:after { content: ''; }
   font-weight: bold;
   font-size: 20px;
 }
-.login .container .login-form form button[type=submit]:hover::after {
+.login .container1 .login-form form button[type=submit]:hover::after {
   opacity: 1;
 }
-.login .container .login-form form button[type=submit]::after {
+.login .container1 .login-form form button[type=submit]::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -418,14 +418,14 @@ li > a:only-child:after { content: ''; }
   background: -o-linear-gradient(bottom, #09203f 0%, #537895 100%);
   background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
-.login .container .remember-form {
+.login .container1 .remember-form {
   position: relative;
   margin-top: -30px;
 }
-.login .container .remember-form input[type=checkbox] {
+.login .container1 .remember-form input[type=checkbox] {
   margin-top: 9px;
 }
-.login .container .remember-form span {
+.login .container1 .remember-form span {
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -433,18 +433,18 @@ li > a:only-child:after { content: ''; }
   color: #ffffff;
   margin-left: 15px;
 }
-.login .container .forget-pass {
+.login .container1 .forget-pass {
   position: absolute;
   right: 0;
   margin-top: 189px;
 }
-.login .container .forget-pass a {
+.login .container1 .forget-pass a {
   font-size: 16px;
   position: relative;
   font-weight: normal;
   color: #ffffff;
 }
-.login .container .forget-pass a::after {
+.login .container1 .forget-pass a::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -461,7 +461,7 @@ li > a:only-child:after { content: ''; }
   opacity: 0;
   right: 0;
 }
-.login .container .forget-pass a:hover::after {
+.login .container1 .forget-pass a:hover::after {
   opacity: 1;
 }
 
@@ -545,31 +545,31 @@ li > a:only-child:after { content: ''; }
     margin: 0 auto;
     width: 100%;
   }
-  .login .container {
+  .login .container1 {
     -webkit-animation: slideIn 0.8s ease-in-out forwards;
             animation: slideIn 0.8s ease-in-out forwards;
     width: 85%;
     float: none;
   }
-  .login .container h1 {
+  .login .container1 h1 {
     font-size: 25px;
     margin-top: 40px;
   }
-  .login .container .login-form {
+  .login .container1 .login-form {
     margin-top: 90px;
   }
-  .login .container .login-form form input {
+  .login .container1 .login-form form input {
     height: 45px;
   }
-  .login .container .login-form form button[type=submit] {
+  .login .container1 .login-form form button[type=submit] {
     height: 45px;
     margin-top: 100px;
   }
-  .login .container .login-form .remember-form {
+  .login .container1 .login-form .remember-form {
     position: relative;
     margin-top: -14px;
   }
-  .login .container .login-form .remember-form span {
+  .login .container1 .login-form .remember-form span {
     font-size: 16px;
     margin-top: 22px;
     top: inherit;
