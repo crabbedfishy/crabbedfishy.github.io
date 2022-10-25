@@ -70,6 +70,7 @@ nav {
   padding: 0;
   background-color: #FF0101;
   z-index: 9997;
+  position: fixed;
 }
 
 #logo {
@@ -208,7 +209,8 @@ li > a:only-child:after { content: ''; }
 		font-size:17px;
 		text-decoration:none;
 		border:none;
-    z-index: 9999;
+    position: fixed;
+   
 	}
 
 	.toggle:hover {
