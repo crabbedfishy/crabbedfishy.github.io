@@ -775,3 +775,8 @@ div.threetrans {
   transition: width 2s, height 4s;
 
 }
+div.threetrans:hover {
+  width: 400px;
+  height: 200px;
+
+}
