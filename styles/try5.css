@@ -97,7 +97,7 @@ div.index p {
     font-family: 'Open Sans', sans-serif;
 } 
 
-@media screen and (max-width:800px ) {
+@media only screen and (max-width:800px ) {
   .container_solid .title_wrapper h1.index {
     /* the text background */
     background: url(/foto/evangelion_index3.png);
