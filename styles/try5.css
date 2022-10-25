@@ -96,3 +96,31 @@ div.index h2 {
 div.index p {
     font-family: 'Open Sans', sans-serif;
 } 
+
+@media screen and (max-width:800px ) {
+  .container_solid .title_wrapper h1.index {
+    /* the text background */
+    background: url(/foto/evangelion_index3.png);
+    background-size: 100vw auto;
+    background-position: center;
+  
+    /* clip the text is possible */
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* fallback text color */
+      color: white;
+    } 
+      .container_image {
+      /* Grab a free image from unsplash */
+      background-image: url(/foto/evangelion_index3.png);
+      background-size:100vw auto;
+      background-position: center;
+      background-attachment: fixed;
+       /* position the second container below the first container */
+      top: 100vh;
+      }
+
+}
