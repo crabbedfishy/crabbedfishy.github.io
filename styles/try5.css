@@ -52,6 +52,8 @@ header {
   font-weight: 900;
 }
 
+
+@media only screen and (max-width:800px ) {
 .container_solid .title_wrapper h1.index {
   /* the text background */
   background: url(/foto/evangelion_index2.jpg);
@@ -66,7 +68,7 @@ header {
   
   /* fallback text color */
   color: white;
-}
+  }
 
 .container_image {
   /* Grab a free image from unsplash */
@@ -77,6 +79,7 @@ header {
   
   /* position the second container below the first container */
   top: 100vh;
+  } 
 }
 
 .container_image .title_wrapper h1 {
