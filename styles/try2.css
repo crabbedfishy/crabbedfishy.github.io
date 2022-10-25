@@ -70,7 +70,7 @@ nav {
   padding: 0;
   background-color: #FF0101;
   z-index: 9997;
-  position: fixed;
+  
 }
 
 #logo {
@@ -147,7 +147,7 @@ nav ul ul li {
   width:170px;
   float:none;
   display:list-item;
-  position: relative;
+
   z-index: 9999;
 }
 
