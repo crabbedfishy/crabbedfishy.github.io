@@ -12,7 +12,7 @@ header.index {
   overflow: hidden;
 
   /* only works with absolute positioning */
-  position: fixed;
+  position: absolute;
 
   /* Make sure containers are full-width and height */
   height: 100vh;
