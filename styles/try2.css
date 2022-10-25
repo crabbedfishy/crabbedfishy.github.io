@@ -70,7 +70,8 @@ nav {
   padding: 0;
   background-color: #375176;
   z-index: 9997;
-  
+  position:fixed;
+  float:right; 
 }
 
 #logo {
