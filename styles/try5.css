@@ -53,7 +53,7 @@ header {
 }
 
 
-@media only screen and (max-width:800px ) {
+@media  screen and (min-width:800px ) {
 .container_solid .title_wrapper h1.index {
   /* the text background */
   background: url(/foto/evangelion_index2.jpg);
@@ -100,7 +100,7 @@ div.index p {
     font-family: 'Open Sans', sans-serif;
 } 
 
-@media only screen and (max-width:800px ) {
+@media  screen and (max-width:800px ) {
   .container_solid .title_wrapper h1.index {
     /* the text background */
     background: url(/foto/evangelion_index3.png);
