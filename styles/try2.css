@@ -806,16 +806,16 @@ body.bodyabout {
   .carousel1 > label {
     position:absolute;
     top:0;
-    width:50%;
-    height:200%;
+    width:25%;
+    height:100%;
     visibility:hidden;
   }
   .carousel1 > label:before {
     content:'';
     display:block;
     position:absolute;
-    width:100%;
-    height:100%;
+    width:200px;
+    height:100px;
     visibility:visible;
   }
   .carousel1 > label:after {
