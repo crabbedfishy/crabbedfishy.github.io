@@ -55,6 +55,7 @@ header {
 
 
 .container_solid .title_wrapper h1.index {
+  margin-top: 30px;
   /* the text background */
   background: url(/foto/evangelion_index2.jpg);
   background-size: 100vw auto;

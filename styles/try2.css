@@ -904,9 +904,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 /*_________________homepage______________________*/
-.margin {
-margin-top: 30px;
-}
+
 .fade-in-text {
   font-family: Arial;
   font-size: 60px;
