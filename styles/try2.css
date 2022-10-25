@@ -768,14 +768,17 @@ body.bodyabout {
 	}
 	/*_________________________________________________naruto____________________________________*/
   
-  div.threetrans {
-    width: 100px;
-    height: 100px;
-    background: red;
-    transition: width 2s, height 4s;
+  .zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
   }
   
-  div.threetrans:hover {
-    width: 300px;
-    height: 300px;
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
   }
