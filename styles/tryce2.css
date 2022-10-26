@@ -72,7 +72,7 @@ body.naruto {
     display: block;
     background: #ccc;
     transition: transform .2s ease-in-out;
-    display: flex;
+    /*display: flex;*/
   }
   
   .p a.naruto {
