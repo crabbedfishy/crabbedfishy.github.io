@@ -50,10 +50,7 @@ h1 {
   font-family: 'Bree Serif', 'serif';
   }
 
-/*?8#container {
-  margin: 0 auto;
-  max-width: 890px;
-}*/
+
 
 p {
   text-align: center;
@@ -1137,7 +1134,7 @@ color: white;
 }
 
 .contact form button:hover, .contact form button:focus {
-  background: #92bde7;
+  background: #375176;
   color: #fff;
   outline: 0;
   transition: background-color 0.5s ease-out;
