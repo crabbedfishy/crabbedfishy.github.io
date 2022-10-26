@@ -14,11 +14,9 @@ body.naruto {
   div.naruto {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
   }
-  img.naruto {
-    display: flex;
-  }
+ 
   
   a.naruto {
     display: inline-block;
