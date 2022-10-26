@@ -11,7 +11,7 @@ body.naruto {
   }
   
   div.naruto {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
   }
