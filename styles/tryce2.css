@@ -23,7 +23,7 @@ body.naruto {
   a.naruto {
     display: inline-block;
     margin-bottom: 8px;
-    width: calc(50% - 4px);
+    width: calc(40% - 4px);
     margin-right: 8px;
     text-decoration: none;
     color: white;
