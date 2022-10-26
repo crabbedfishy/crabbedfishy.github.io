@@ -16,8 +16,7 @@ body.naruto {
     justify-content: center;
   }
   img.naruto {
-    margin-left: 10%;
-    margin-right: 30%;
+   margin:auto;
     align-items: center;
   }
   
@@ -30,8 +29,7 @@ body.naruto {
     color: white;
     display: flex;
     text-align: center;
-    margin-left: 40%;
-    margin-right: 30%;
+    margin:auto;
   }
   
   a.naruto:nth-of-type(2n) {
