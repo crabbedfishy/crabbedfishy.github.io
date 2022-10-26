@@ -15,7 +15,9 @@ body.naruto {
     flex-wrap: wrap;
     justify-content: center;
   }
- 
+  img.naruto {
+    align-items: center;
+  }
   
   a.naruto {
     display: inline-block;
@@ -25,6 +27,7 @@ body.naruto {
     text-decoration: none;
     color: white;
     display: flex;
+    text-align: center;
   }
   
   a.naruto:nth-of-type(2n) {
