@@ -550,7 +550,7 @@ li > a:only-child:after { content: ''; }
   .login .container1 {
     -webkit-animation: slideIn 0.8s ease-in-out forwards;
             animation: slideIn 0.8s ease-in-out forwards;
-    width: 85%;
+    /*width: 85%;*/
     float: none;
   }
   .login .container1 h1 {
