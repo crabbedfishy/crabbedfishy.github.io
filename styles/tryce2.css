@@ -10,12 +10,12 @@ body {
     margin: 0 0 30px;
   }
   
-  div {
+  div.naruto {
     display: flex;
     flex-wrap: wrap;
   }
   
-  a {
+  a.naruto {
     display: inline-block;
     margin-bottom: 8px;
     width: calc(50% - 4px);
@@ -24,29 +24,29 @@ body {
     color: black;
   }
   
-  a:nth-of-type(2n) {
+  a.naruto:nth-of-type(2n) {
     margin-right: 0;
   }
   
   @media screen and (min-width: 50em) {
-    a {
+    a.naruto {
       width: calc(25% - 6px);
     }
     
-    a:nth-of-type(2n) {
+    a.naruto:nth-of-type(2n) {
       margin-right: 8px;
     }
     
-    a:nth-of-type(4n) {
+    a.naruto:nth-of-type(4n) {
       margin-right: 0;
     }
   }
   
-  a:hover img {
+  a.naruto:hover img {
     transform: scale(1.15);
   }
   
-  figure {
+  figure.naruto {
     margin: 0;
     overflow: hidden;
   }
@@ -55,7 +55,7 @@ body {
     margin-top: 15px;
   }
   
-  img {
+  img.naruto {
     border: none;
     max-width: 100%;
     height: auto;
@@ -64,7 +64,7 @@ body {
     transition: transform .2s ease-in-out;
   }
   
-  .p a {
+  .p a.naruto {
     display: inline;
     font-size: 13px;
     margin: 0;
@@ -72,7 +72,7 @@ body {
     color: blue;
   }
   
-  .p {
+  .p.naruto {
     text-align: center;
     font-size: 13px;
     padding-top: 100px;
