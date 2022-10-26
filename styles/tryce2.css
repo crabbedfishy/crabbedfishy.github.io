@@ -16,7 +16,7 @@ body.naruto {
     flex-wrap: wrap;
   }
   img.naruto {
-    display: flex;
+    display: center;
   }
   
   a.naruto {
