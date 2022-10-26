@@ -38,7 +38,7 @@ body.naruto {
   
   @media screen and (min-width: 50em) {
     a.naruto {
-      width: calc(25% - 6px);
+      width: calc(40% - 6px);
     }
     
     a.naruto:nth-of-type(2n) {
