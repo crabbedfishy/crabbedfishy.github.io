@@ -381,7 +381,7 @@ li > a:only-child:after { content: ''; }
   border: none;
   padding: 0 30px;
   border-radius: 10px;
-}
+} 
 .login .container1 .login-form form button[type=submit] {
   background: -webkit-linear-gradient(110deg, #f794a4 0%, #fdd6bd 100%);
   background: -o-linear-gradient(110deg, #f794a4 0%, #fdd6bd 100%);
@@ -389,8 +389,8 @@ li > a:only-child:after { content: ''; }
   border: none;
   margin-top: 124px;
   margin-bottom: 20px;
-  width: 241px;
-  height: 58px;
+  width: 241px; 
+  height: 58px; 
   text-transform: uppercase;
   color: white;
   border-radius: 10px;
