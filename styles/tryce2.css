@@ -24,7 +24,7 @@ body.naruto {
     width: calc(50% - 4px);
     margin-right: 8px;
     text-decoration: none;
-    color: black;
+    color: white;
     display: flex;
   }
   
