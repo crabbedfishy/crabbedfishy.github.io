@@ -1350,7 +1350,7 @@ body.bodyabout {
 .gallery {
   /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
  
   /* (B2) OPTIONAL WIDTH RESTRICT */
@@ -1374,7 +1374,7 @@ body.bodyabout {
   position: relative;
 }
 /* (D) ON SMALL SCREENS - 2 IMAGES PER ROW */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
