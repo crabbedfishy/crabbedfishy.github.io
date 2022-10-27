@@ -1328,7 +1328,7 @@ body.bodyabout {
   }
 
 
-  @media(min-width:700px) {
+  @media(min-width:992px) {
     .section {
       display: grid;
       grid-template-columns: 1fr 2fr;
