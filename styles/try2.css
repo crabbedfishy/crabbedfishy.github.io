@@ -836,7 +836,7 @@ body.bodyabout {
   /*_________________________________________________big three____________________________________*/
 
   .carousel {
-    margin-left: 45%;
+    margin-left: 35%;
     margin-right: 15%;
   }
 
@@ -914,13 +914,13 @@ body.bodyabout {
   }
 
   .carousel-controls .prev-slide {
-    width: 59%;
+    width: 49%;
     text-align: left;
     left: 0;
   }
 
   .carousel-controls .next-slide {
-    width: 59%;
+    width: 49%;
     text-align: right;
     right: 0;
   }
