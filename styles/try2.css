@@ -837,6 +837,7 @@ body.bodyabout {
 
   .carousel {
     margin: auto;
+    display: flex;
     /*margin-left: 15%;
     margin-right: 15%;*/
   }
