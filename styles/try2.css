@@ -914,13 +914,13 @@ body.bodyabout {
   }
 
   .carousel-controls .prev-slide {
-    width: 49%;
+    width: 69%;
     text-align: left;
     left: 0;
   }
 
   .carousel-controls .next-slide {
-    width: 49%;
+    width: 69%;
     text-align: right;
     right: 0;
   }
