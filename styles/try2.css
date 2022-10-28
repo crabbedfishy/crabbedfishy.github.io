@@ -967,10 +967,11 @@ body.bodyabout {
   input:checked+.slide-container .nav label {
     display: block;
   }
-  .p.naruto{
+  p.naruto{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
   }
 /*_________________naruto-bleach-onepiece_______________*/
   body.naruto {
