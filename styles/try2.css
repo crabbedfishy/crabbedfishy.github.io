@@ -969,9 +969,10 @@ body.bodyabout {
   }
   p.naruto{
     text-align: center;
-    margin-left: 20%;
+    /*margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 10%;*/ 
+    margin:auto;
   }
 /*_________________naruto-bleach-onepiece_______________*/
   body.naruto {
