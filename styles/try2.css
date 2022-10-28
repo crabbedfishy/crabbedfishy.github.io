@@ -836,15 +836,12 @@ body.bodyabout {
   /*_________________________________________________big three____________________________________*/
 
   .carousel {
-    margin: auto;
-    display: flex;
-    /*margin-left: 15%;
-    margin-right: 15%;*/
+    margin-left: 35%;
+    margin-right: 15%;
   }
 
   ul.slides {
-    display: flex;
-   /*display: block;*/
+   display: block;
     position: relative;
     height: 400px;
     width: 700px;
