@@ -843,7 +843,8 @@ body.bodyabout {
   }
 
   ul.slides {
-    display: block;
+    display: flex;
+   /*display: block;*/
     position: relative;
     height: 400px;
     width: 700px;
