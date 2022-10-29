@@ -196,8 +196,9 @@ li>a:only-child:after {
     width: 100%;
     text-align: center;
     float: none;
+    
   }
-
+ 
   nav {
     margin: 0;
   }
