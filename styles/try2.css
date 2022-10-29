@@ -1385,4 +1385,14 @@ body.bodyabout {
   display:flex; 
   flex-grow: 1;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+.anime_text1 {
+
+}
+.anime_text2 {
+
+}
+.anime_text3 {
+
 }
