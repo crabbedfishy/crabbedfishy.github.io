@@ -1383,18 +1383,26 @@ body.bodyabout {
 /*____________________________________________anime_________________________________________*/
 .container4 {
   display:flex; 
-  
   flex-wrap: wrap;
   flex-direction: row;
   margin:auto;
   justify-content: space-between;
 }
 .anime_text1 {
-  flex: 1 0 21%;
+  flex: 1 0 41%;
+  margin-top:5%;
+  margin-left:5%; 
+  margin-right: 2.5%;
 }
 .anime_text2 {
-  flex: 1 0 21%;
+  flex: 1 0 41%;
+  margin-top:5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
 }
 .anime_text3 {
   flex: 1 0 21%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
