@@ -1393,13 +1393,14 @@ body.bodyabout {
   margin-top:2%;
   margin-left:2.5%; 
   margin-right: 2.5%;
+  margin-bottom: 2%;
 }
 .anime_text2 {
   flex: 1 0 41%;
   margin-top:5%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-
+  margin-bottom: 2%;
 }
 
 .anime_text4 {
