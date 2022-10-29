@@ -1409,9 +1409,14 @@ body.bodyabout {
 img.animefoto {
   margin:auto;
 }
+img.animefoto2 {
+  margin:auto;
+  flex : 1 0 41%;
+}
 @media only screen and (max-width: 992px) {
 .anime_text3 {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 }
