@@ -1407,6 +1407,12 @@ body.bodyabout {
   margin-right: 10%;
   margin-top: 5%;
 }
+.anime_text4 {
+  flex: 1 0 81%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
+}
 img.animefoto {
   margin:auto;
 }
