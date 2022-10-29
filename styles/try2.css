@@ -1410,9 +1410,8 @@ body.bodyabout {
 img.animefoto {
   margin:auto;
 }
-img.animefoto2 {
-  margin:auto;
-  flex : 1 0 41%;
+img.animefoto1 {
+  width:80%;
 }
 .rating {
   text-decoration: double;
