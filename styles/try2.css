@@ -733,16 +733,16 @@ li>a:only-child:after {
   font-size: 1em;
   padding: 10px;
   color: #fff;
-  border: 2px solid #537895 ;
+  border: 2px solid #537895;
   border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
-  margin:auto;
+  margin: auto;
 }
 
 .button:hover {
-  background: #537895 ;
+  background: #537895;
 }
 
 .overlay {
