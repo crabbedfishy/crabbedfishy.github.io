@@ -351,7 +351,7 @@ li>a:only-child:after {
   position: relative;
   height: 100vh;
   width: 1194px;
-  background: url("foto/login1.png") no-repeat center center scroll;
+  background: url("/foto/login1.png") no-repeat center center scroll;
   background-size: cover;
   float: left;
   -webkit-animation: bgslide 2.3s forwards;
@@ -574,7 +574,7 @@ li>a:only-child:after {
 
   .bg-illustration {
     float: none;
-    background: url("foto/login2.png") center center;
+    background: url("/foto/login2.png") center center;
     background-size: cover;
     -webkit-animation: slideIn 0.8s ease-in-out forwards;
     animation: slideIn 0.8s ease-in-out forwards;
