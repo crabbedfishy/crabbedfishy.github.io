@@ -969,19 +969,15 @@ body.bodyabout {
   }
 /*_________________naruto-bleach-onepiece_______________*/
   body.naruto {
-
     font-family: 'Open Sans', sans-serif;
-
   }
 
   h3.naruto {
     text-align: center;
     font-size: 1.65em;
-    /* margin: 0 0 30px; */
   }
 
   div.naruto {
-    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -1009,10 +1005,7 @@ body.bodyabout {
     a.naruto {
       width: calc(60% - 6px);
     }
-
-  
   }
-
   a.naruto:hover img {
     transform: scale(1.25);
   }
@@ -1033,7 +1026,6 @@ body.bodyabout {
     display: block;
     background: #ccc;
     transition: transform .2s ease-in-out;
-    /*display: flex;*/
   }
 
   .p a.naruto {
