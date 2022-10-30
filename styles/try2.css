@@ -589,33 +589,7 @@ li>a:only-child:after {
     margin: 20px auto !important;
     text-align: center;
   }
-/*
-  .bg-illustration .burger-btn {
-    left: 33px;
-    top: 29px;
-    display: block;
-    position: absolute;
-  }
 
-  .bg-illustration .burger-btn span {
-    display: block;
-    height: 4px;
-    margin: 6px;
-    background-color: #fff;
-  }
-
-  .bg-illustration .burger-btn span:nth-child(1) {
-    width: 37px;
-  }
-
-  .bg-illustration .burger-btn span:nth-child(2) {
-    width: 28px;
-  }
-
-  .bg-illustration .burger-btn span:nth-child(3) {
-    width: 20px;
-  }
-*/
   .login {
     float: none;
     margin: 0 auto;
@@ -696,27 +670,6 @@ li>a:only-child:after {
   }
 }
 
-/*________________________________________fotos die wisselen als je de muis erop doet______________________________________________*/
-#cf {
-  position: relative;
-
-  margin: 0 auto;
-}
-
-#cf img {
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  height: 280px;
-  width: 400px;
-}
-
-#cf img.top:hover {
-  opacity: 0;
-}
 
 /*______________________________________________about page________________________________________________*/
 body.bodyabout {
@@ -769,7 +722,7 @@ body.bodyabout {
     margin: 0 0 10vh auto;
     position: sticky;
     top: 0;
-    // overflow: hidden;
+     overflow: hidden;
     padding: 5vmin;
     box-shadow: -4px -4px 8px rgba(0, 0, 0, .4);
   }
@@ -879,8 +832,8 @@ body.bodyabout {
   ul.slides {
    display: block;
     position: relative;
-    height: 500px;
-    width: 1000px;
+    height: 30%;
+    width: 60%;
     margin: 0;
     padding: 0;
     overflow: hidden;
