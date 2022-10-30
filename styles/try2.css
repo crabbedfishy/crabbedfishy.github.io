@@ -1,9 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
+applet, object, iframe,
+h4, h5, h6, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,blockquote
+dl, dt, dd, ol, fieldset,legend,
+caption, tbody, tfoot, thead, tr, th, td,
+aside, canvas, details, embed, table
+footer,hgroup, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+aside, details,
+footer,  hgroup,   {
+	display: block;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
-  /*doet volgens mij niks maar idk*/
   box-sizing: border-box;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1009,22 +1044,14 @@ body.bodyabout {
     margin: auto;
   }
 
-  a.naruto:nth-of-type(2n) {
-    /*margin-right: 0;*/
-  }
+ 
 
   @media screen and (min-width: 50em) {
     a.naruto {
       width: calc(60% - 6px);
     }
 
-    a.naruto:nth-of-type(2n) {
-      /* margin-right: 8px; */
-    }
-
-    a.naruto:nth-of-type(4n) {
-      /* margin-right: 0;*/
-    }
+  
   }
 
   a.naruto:hover img {
