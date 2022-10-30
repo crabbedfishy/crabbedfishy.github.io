@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 aside, details,
-footer,  hgroup,   {
+footer,  hgroup  {
 	display: block;
 }
 
