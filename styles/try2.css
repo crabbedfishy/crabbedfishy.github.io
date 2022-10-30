@@ -825,15 +825,15 @@ body.bodyabout {
   /*_________________________________________________big three____________________________________*/
 
   .carousel {
-    margin-left: 18%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   ul.slides {
    display: block;
     position: relative;
-    height: 30%;
-    width: 60%;
+    height: 500px;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -960,6 +960,12 @@ body.bodyabout {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  @media screen and (min-width: 1500px) {
+    .carousel {
+      margin-left: 40%;
+      margin-right: 40%;
+    }
   }
 /*_________________naruto-bleach-onepiece_______________*/
   body.naruto {
