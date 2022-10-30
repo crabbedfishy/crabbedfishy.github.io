@@ -589,7 +589,7 @@ li>a:only-child:after {
     margin: 20px auto !important;
     text-align: center;
   }
-
+/*
   .bg-illustration .burger-btn {
     left: 33px;
     top: 29px;
@@ -615,7 +615,7 @@ li>a:only-child:after {
   .bg-illustration .burger-btn span:nth-child(3) {
     width: 20px;
   }
-
+*/
   .login {
     float: none;
     margin: 0 auto;
