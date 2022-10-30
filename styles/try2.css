@@ -961,7 +961,7 @@ body.bodyabout {
     margin-left: 10%;
     margin-right: 10%;
   }
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1600px) {
     .carousel {
       margin-left: 25%;
       margin-right: 25%;
